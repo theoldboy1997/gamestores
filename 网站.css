@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(161, 134, 58);
+}
+ul{
+    margin:0;
+    list-style-type: square;
+}
+video-list_item{
+    width:calc(25%-2rem);
+    margin-bottom:2rem;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.2);
+    transition:all 0.2s;
+    -webkit-transition:all 0.2s;
+    -moz-transition:all 0.2s;
+    -ms-transition:all 0.2s;
+    -o-transition:all 0.2s;
+}
+.video-list{
+    display:flex;
+    padding:0;
+    flex-wrap:wrap;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+}
